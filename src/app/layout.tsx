@@ -40,20 +40,11 @@ export const metadata: Metadata = {
     title: siteTitle,
     description: siteDescription,
     type: "website",
-    images: [
-      {
-        url: STAMP_IMAGE,
-        width: STAMP_WIDTH,
-        height: STAMP_HEIGHT,
-        alt: "TERMINATED stamp",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: siteTitle,
     description: siteDescription,
-    images: [STAMP_IMAGE],
   },
 };
 
